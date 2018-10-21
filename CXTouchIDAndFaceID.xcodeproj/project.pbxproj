@@ -13,6 +13,10 @@
 		C04A9A59216DF607000BACD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04A9A58216DF607000BACD4 /* Assets.xcassets */; };
 		C04A9A5C216DF607000BACD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04A9A5A216DF607000BACD4 /* LaunchScreen.storyboard */; };
 		C04A9A5F216DF607000BACD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A9A5E216DF607000BACD4 /* main.m */; };
+		C05FAFC02172EC1300383786 /* CXTouchFaceID.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FAFBF2172EC1300383786 /* CXTouchFaceID.m */; };
+		C05FAFC32172EFBE00383786 /* CXTouchFaceIDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FAFC22172EFBE00383786 /* CXTouchFaceIDWindow.m */; };
+		C05FAFC62172F00100383786 /* CXTouchFaceIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FAFC52172F00100383786 /* CXTouchFaceIDViewController.m */; };
+		C05FAFCB2173255900383786 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C05FAFCA2173255900383786 /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		C04A9A5B216DF607000BACD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04A9A5D216DF607000BACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C04A9A5E216DF607000BACD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C05FAFBE2172EC1300383786 /* CXTouchFaceID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTouchFaceID.h; sourceTree = "<group>"; };
+		C05FAFBF2172EC1300383786 /* CXTouchFaceID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTouchFaceID.m; sourceTree = "<group>"; };
+		C05FAFC12172EFBE00383786 /* CXTouchFaceIDWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTouchFaceIDWindow.h; sourceTree = "<group>"; };
+		C05FAFC22172EFBE00383786 /* CXTouchFaceIDWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTouchFaceIDWindow.m; sourceTree = "<group>"; };
+		C05FAFC42172F00100383786 /* CXTouchFaceIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTouchFaceIDViewController.h; sourceTree = "<group>"; };
+		C05FAFC52172F00100383786 /* CXTouchFaceIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTouchFaceIDViewController.m; sourceTree = "<group>"; };
+		C05FAFCA2173255900383786 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0127C7221763AF100426F3C /* TouchFaceID */ = {
+			isa = PBXGroup;
+			children = (
+				C05FAFC12172EFBE00383786 /* CXTouchFaceIDWindow.h */,
+				C05FAFC22172EFBE00383786 /* CXTouchFaceIDWindow.m */,
+				C05FAFBE2172EC1300383786 /* CXTouchFaceID.h */,
+				C05FAFBF2172EC1300383786 /* CXTouchFaceID.m */,
+				C05FAFC42172F00100383786 /* CXTouchFaceIDViewController.h */,
+				C05FAFC52172F00100383786 /* CXTouchFaceIDViewController.m */,
+			);
+			path = TouchFaceID;
+			sourceTree = "<group>";
+		};
 		C04A9A43216DF605000BACD4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +84,12 @@
 			children = (
 				C04A9A4F216DF605000BACD4 /* AppDelegate.h */,
 				C04A9A50216DF605000BACD4 /* AppDelegate.m */,
+				C0127C7221763AF100426F3C /* TouchFaceID */,
 				C04A9A52216DF605000BACD4 /* ViewController.h */,
 				C04A9A53216DF605000BACD4 /* ViewController.m */,
 				C04A9A55216DF606000BACD4 /* Main.storyboard */,
 				C04A9A58216DF607000BACD4 /* Assets.xcassets */,
+				C05FAFCA2173255900383786 /* test.jpg */,
 				C04A9A5A216DF607000BACD4 /* LaunchScreen.storyboard */,
 				C04A9A5D216DF607000BACD4 /* Info.plist */,
 				C04A9A5E216DF607000BACD4 /* main.m */,
@@ -131,6 +157,7 @@
 				C04A9A5C216DF607000BACD4 /* LaunchScreen.storyboard in Resources */,
 				C04A9A59216DF607000BACD4 /* Assets.xcassets in Resources */,
 				C04A9A57216DF606000BACD4 /* Main.storyboard in Resources */,
+				C05FAFCB2173255900383786 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05FAFC32172EFBE00383786 /* CXTouchFaceIDWindow.m in Sources */,
+				C05FAFC62172F00100383786 /* CXTouchFaceIDViewController.m in Sources */,
 				C04A9A54216DF605000BACD4 /* ViewController.m in Sources */,
 				C04A9A5F216DF607000BACD4 /* main.m in Sources */,
 				C04A9A51216DF605000BACD4 /* AppDelegate.m in Sources */,
+				C05FAFC02172EC1300383786 /* CXTouchFaceID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RTPA62VT2;
 				INFOPLIST_FILE = CXTouchIDAndFaceID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RTPA62VT2;
 				INFOPLIST_FILE = CXTouchIDAndFaceID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
